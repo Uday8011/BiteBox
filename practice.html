@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteBox</title>
+        <style>
+        table{
+            border-collapse: collapse;
+            border: 3px solid black;
+            width: 700px;
+            margin: 40px auto;
+        }
+
+        td{
+            border: 2px solid black;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>Uday</h1>
+        <p>Hello Uday! Welcome to BiteBox.</p>
+
+        <p>
+            My name is Uday
+
+        <p>
+            My name is <span style="color: blue;">Uday</span>
+        </p>
+
+        <article>
+            Blog post content goes here. This is an example of an article element in HTML.
+        </article>
+    </div>
+
+    <header>
+        <h1>Welcome to BiteBox!</h1>
+    </header>
+
+    <section>
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Pizza</li>
+            <li>Burgers</li>
+            <li>Sushi</li>
+            <li>Salads</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 BiteBox. All rights reserved.
+    </footer> 
+
+    <p>(a+b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></p>
+    
+    <p>(a-b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></p>
+
+    <p>(a+b)(a-b) = a<sup>2</sup> - b<sup>2</sup></p>
+
+    <p><u><i>Uday</i></u> is a <mark>brave and kind man.</mark></p>
+
+    <hr>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quaerat molestias ratione assumenda facere voluptatum accusantium repellendus iusto!</p>
+
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <br>
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+
+    <br>
+
+    <img src="assests/king.jpg" alt="King" width="250px" height="400px">
+    
+    <ol type="I">
+        <!-- this order list tag -->
+         <li>First item</li>
+         <li>Second item</li>
+         <li>Third item</li>
+    </ol>
+
+    <hr>
+    
+    <ul style="list-style-type: square;">
+        <!-- this is unordered list tag -->
+         <li>First item</li>
+         <li>Second item</li>
+         <li>Third item</li>
+    </ul>
+
+    <!-- <table border="3" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Uday</td>
+            <td>uday@gmail.com</td>
+            <td>123-456-7890</td>
+            <td>21</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>alice@gmail.com</td>
+            <td>098-765-4321</td>
+            <td>25</td>
+            <td>Los Angeles</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>bob@gmail.com</td>
+            <td>555-1234</td>
+            <td>30</td>
+            <td>Chicago</td>
+        </tr>
+    </table> -->
+
+    <table border="3" cellpadding="0" cellspacing="0">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">10am</td>
+            <td rowspan="2">5pm</td>
+            <td>Introduction to HTML
+            </td> 
+        </tr>
+        <tr>
+            <td>Welcome to Training</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>10am</td>
+            <td>5pm</td>
+            <td rowspan="2">HTML</td>
+        </tr>
+        <tr>
+            <td>11am</td>
+            <td>3am</td>
+        </tr>
+        <tr>
+            <td>2pm</td>
+            <td>4pm</td>
+            <td>XL transfarmation</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8am</td>
+            <td>12pm</td>
+            <td>Windows</td>
+        </tr>
+
+    </table>
+
+
+    <h2>Student Registration Form</h2>
+    <form action="backend.java" method="post">
+        Enter your name: <input type="text" name="name" required><br><br>
+        Enter your username: <input type="text" name="username" required><br><br>
+        Enter your email: <input type="email" name="email" required><br><br>
+        Enter your password: <input type="password" name="password" required><br><br>
+        Enter your age: <input type="number" name="age" required><br><br>
+        City: <select name="city" required>
+            <option value="">Select a city</option>
+            <option value="Thane">Thane</option>
+            <option value="Kalyan">Kalyan</option>
+            <option value="Bhiwandi">Bhiwandi</option>
+            <option value="Dombivli">Dombivli</option>
+        </select><br><br>
+        Address: <textarea name="address" rows="4" cols="50" required></textarea><br><br>
+        Enter your date of birth: <input type="date" name="dob" required><br><br>
+        Enter your gender: <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female <br><br>
+        Enter your Contact: <input type="tel" name="contact" required><br><br>
+        Enter your hobbies: <input type="checkbox" name="hobbies" value="reading"> Reading
+        <input type="checkbox" name="hobbies" value="traveling"> Traveling
+        <input type="checkbox" name="hobbies" value="sports"> Sports<br><br>
+
+        <textarea rows="4" cols="20" placeholder="Enter any additional information here..."></textarea>
+
+        <br><br>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset">
+
+        
+    </form>
+
+<br>
+
+   <table border="3" cellspacing="0" cellpadding="0">
+
+    <tr>
+        <td rowspan="3">Coding</td>
+        <td colspan="4">Practical</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Programming</td>
+        <td rowspan="2">Language</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Name</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Python</td>
+        <td rowspan="2">C</td>
+        <td rowspan="2">C++</td>
+        <td colspan="2">C#</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">HTML</td>
+    </tr>
+    <tr>
+        <td rowspan="3">CSS</td>
+        <td colspan="2">JavaScript</td>
+        <td rowspan="2">Java</td>
+    </tr>
+    <tr>
+        <td colspan="2">MySQL</td>
+    </tr>
+    <tr>
+        <td colspan="2">SpringBoot</td>
+        <td colspan="2">React</td>
+    </tr>
+
+    <tr>
+        <td>Angular</td>
+        <td>Clone</td>
+        <td>Cloud Computing</td>
+        <td colspan="2">Hackathon</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
