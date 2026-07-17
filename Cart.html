@@ -30,14 +30,66 @@
 
         </nav>
     </header>
-    <main>
-        <section>
-            <h3>Enjoy Your Food and Delicious Experience</h3>
-            <h4>Payment Mode</h4>
-            <p>We accept all major credit cards, debit cards, and digital wallets for your convenience. Enjoy a seamless and secure payment experience with BiteBox.</p>
-            <h4>Delivery</h4>
-            <p>Our fast and reliable delivery service ensures that your food arrives hot and fresh at your doorstep. Track your order in real-time and enjoy the convenience of having great food delivered to you.</p>
-        </section>
-    </main>
+
+    <section>
+        <table class="cart">
+            <thead>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Total</th>
+            <th>Remove</th>
+            </thead>
+
+        <tbody>
+
+            <tr>
+                <td class="item">
+                    <img src="images/veg.png">
+                    <div>
+                        <h4>Cheese Burger</h4>
+                        <p>Juicy grilled burger</p>
+                    </div>
+                </td>
+                <td>₹199</td>
+                <td>
+                    <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </td>
+                <td>₹199</td>
+                <td><button class="remove">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td class="item">
+                    <img src="images/momos.png">
+                    <div>
+                        <h4>Momos</h4>
+                        <p>Steam Momo</p>
+                    </div>
+                </td>
+                <td>₹99</td>
+                <td>
+                    <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </td>
+                <td>₹99</td>
+                <td><button class="remove">Remove</button></td>
+            </tr>
+            <tr class="grand-total">
+                <td colspan="3">Grand Total</td>
+                <td>₹298</td>
+                <td><button>Proceed</button></td>
+            </tr>
+
+        </tbody>
+        </table>
+    </section>
 </body>
 </html>
