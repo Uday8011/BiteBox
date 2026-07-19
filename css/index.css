@@ -402,7 +402,7 @@ tbody tr{
     text-align: center;
 }
 
-.material-symbols-outlined{
+/* .material-symbols-outlined{
     font-size:36px;
     color:#fff;
 }
@@ -410,17 +410,24 @@ tbody tr{
 .signup-icon{
     font-size: 36px;
     color:#fff;
-}
+} */
 
-/* .icon-box1{
+.icon-circle{
     width:60px;
     height:60px;
-    background:#0B0B0B;
+    border:3px solid #fff;
     border-radius:50%;
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
-} */
+    margin:0 auto 20px;
+    background: transparent;
+}
+
+.icon-circle .material-symbols-outlined{
+    font-size:36px;
+    color:#fff;
+}
 
 .auth-container{
     height: 100vh;
@@ -449,7 +456,7 @@ tbody tr{
 
 .auth-box h2{
     margin-bottom: 20px;
-    color:#2E2E2E
+    color:whitesmoke;
 }
 
 .auth-box input{
@@ -491,4 +498,49 @@ tbody tr{
 
 form{
     text-align: left;
+}
+
+.options{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+    font-size:14px;
+}
+
+.remember{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:6px;
+
+    color:white;
+}
+
+.remember input{
+
+    width:auto;
+
+    margin:0;
+
+    accent-color:red;
+}
+
+.options a{
+
+    color:#ff4040;
+
+    text-decoration:none;
+}
+
+.options a:hover{
+
+    text-decoration:underline;
 }
