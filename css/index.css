@@ -401,3 +401,94 @@ tbody tr{
     min-width: 20px;
     text-align: center;
 }
+
+.material-symbols-outlined{
+    font-size:36px;
+    color:#fff;
+}
+
+.signup-icon{
+    font-size: 36px;
+    color:#fff;
+}
+
+/* .icon-box1{
+    width:60px;
+    height:60px;
+    background:#0B0B0B;
+    border-radius:50%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+} */
+
+.auth-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(
+        90deg,
+        #0B0B0B 0%,
+        #0F0F0F 35%,
+        #180606 55%,
+        #330000 75%,
+        #5A0000 90%,
+        #7F0000 100%
+    );
+}
+
+.auth-box{
+    background: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,.3);
+}
+
+.auth-box h2{
+    margin-bottom: 20px;
+    color:#2E2E2E
+}
+
+.auth-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.auth-box input:focus{
+    border-color: red;
+}
+
+.auth-box button{
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.auth-box button:hover{
+    background-color: red;
+}
+
+.auth-box p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-box a{
+    color: red;
+    text-decoration: none;
+}
+
+form{
+    text-align: left;
+}
