@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BiteBox</title>
-<link rel="stylesheet"
-href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/27cfa59273.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <section class="auth-container">
@@ -15,15 +18,15 @@ href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <div class="icon-circle">
     <span class="material-symbols-outlined">person</span>
     </div>
-    <h2>Welcome Back! Bite<span>Box</span></h2>
+    <h2>Welcome Back!&nbsp;<img src="images/logo.png" alt="BiteBox Logo" width="180"></h2>
     <p>Please login to your account</p><br>
 
     <form>
-        Email or Username<br>
+        <label for="email">Email</label>
         <input type="email" placeholder="Enter Email" required>
-        <br>
-        Password<br>
-        <input type="password" placeholder="Enter Password" required><br><br>
+        
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter Password" required>
 
         <div class="options">
 
@@ -38,7 +41,7 @@ href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
         <button type="submit">Login</button>
     </form>
-    <p>Don't have an account<a href="signup.html">SignUp</a></p>
+    <p>Don't have an account&nbsp;<a href="signup.html">SignUp</a></p>
 </div>
 </section>
 </body>

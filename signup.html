@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteBox</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet"
-href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/27cfa59273.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="auth-container">
@@ -14,22 +18,30 @@ href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
             <div class="icon-circle">
                 <span class="material-symbols-outlined">person_add</span>
             </div>
+            <img src="images/logo.png" alt="BiteBox Logo" width="180">
             <h2>Create Account</h2>
             <br>
-
             <form class="input">
-                Full Name<br>
-                <input type="text" placeholder="Full Name" required><br>
-                Email Address<br>
-                <input type="email" placeholder="Email" required><br>
-                Password<br>
-                <input type="password" placeholder="Password" required><br>
-                Confirm Password<br>
+                <label for="fullname">Full Name</label>
+                <input type="text" placeholder="Full Name" required>
+                
+                <Label for="email">Email Address</Label>
+                <input type="email" placeholder="Email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" required>
+                
+                <label for="password">Confirm Password</label> 
                 <input type="password" placeholder="Confirm Password" required><br>
                 <br>
+                <div class="options">
+                    <label class="remember">
+                        <input type="checkbox">I agree to the Terms of Services and Privacy Policy
+                    </label>
+                </div>
                 <button type="submit">Sign Up</button>
             </form>
-            <p>Already have an account?<a href="Login.html">Login</a></p>
+            <p>Already have an account?&nbsp;<a href="Login.html">Login</a></p>
         </div>
     </section>
 </body>

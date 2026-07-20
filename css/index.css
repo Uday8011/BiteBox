@@ -127,7 +127,6 @@ nav a.active{
     justify-content:space-between;
     padding:50px;
     gap:40px;
-
     background:linear-gradient(
         90deg,
         #0B0B0B 0%,
@@ -166,7 +165,6 @@ nav a.active{
 .about{
     text-align:center;
     padding:60px 20px;
-
     background:linear-gradient(
         90deg,
         #0B0B0B 0%,
@@ -402,16 +400,6 @@ tbody tr{
     text-align: center;
 }
 
-/* .material-symbols-outlined{
-    font-size:36px;
-    color:#fff;
-}
-
-.signup-icon{
-    font-size: 36px;
-    color:#fff;
-} */
-
 .icon-circle{
     width:60px;
     height:60px;
@@ -449,7 +437,7 @@ tbody tr{
     background: transparent;
     padding: 40px;
     border-radius: 10px;
-    width: 320px;
+    width: 500px;
     text-align: center;
     box-shadow: 0 8px 25px rgba(0,0,0,.3);
 }
@@ -501,46 +489,31 @@ form{
 }
 
 .options{
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
     margin-bottom:20px;
-
     font-size:14px;
 }
 
 .remember{
-
     display:flex;
-
     align-items:center;
-
     gap:6px;
-
     color:white;
 }
 
 .remember input{
-
     width:auto;
-
     margin:0;
-
     accent-color:red;
 }
 
 .options a{
-
     color:#ff4040;
-
     text-decoration:none;
 }
 
 .options a:hover{
-
     text-decoration:underline;
 }
