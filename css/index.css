@@ -23,7 +23,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:rgba(13,13,13,0.9);
+    background:transparent;
     backdrop-filter:blur(10px);
     padding:15px 40px;
 }
@@ -127,15 +127,6 @@ nav a.active{
     justify-content:space-between;
     padding:50px;
     gap:40px;
-    background:linear-gradient(
-        90deg,
-        #0B0B0B 0%,
-        #0F0F0F 35%,
-        #180606 55%,
-        #330000 75%,
-        #5A0000 90%,
-        #7F0000 100%
-    );
 }
 
 .video-text{
@@ -165,15 +156,6 @@ nav a.active{
 .about{
     text-align:center;
     padding:60px 20px;
-    background:linear-gradient(
-        90deg,
-        #0B0B0B 0%,
-        #0F0F0F 35%,
-        #180606 55%,
-        #330000 75%,
-        #5A0000 90%,
-        #7F0000 100%
-    );
 }
 
 .about h2{
@@ -247,16 +229,6 @@ nav a.active{
     padding:20px;
     overflow:auto;
     justify-content:center;
-
-    background:linear-gradient(
-        90deg,
-        #0B0B0B 0%,
-        #0F0F0F 35%,
-        #180606 55%,
-        #330000 75%,
-        #5A0000 90%,
-        #7F0000 100%
-    );
 }
 
 .icon-box{
@@ -413,7 +385,7 @@ tbody tr{
 }
 
 .icon-circle .material-symbols-outlined{
-    font-size:36px;
+    font-size:28px;
     color:#fff;
 }
 
@@ -422,28 +394,20 @@ tbody tr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(
-        90deg,
-        #0B0B0B 0%,
-        #0F0F0F 35%,
-        #180606 55%,
-        #330000 75%,
-        #5A0000 90%,
-        #7F0000 100%
-    );
 }
 
 .auth-box{
     background: transparent;
-    padding: 40px;
-    border-radius: 10px;
-    width: 500px;
+    padding: 25px;
+    border-radius: 8px;
+    width: 450px;
     text-align: center;
     box-shadow: 0 8px 25px rgba(0,0,0,.3);
+
 }
 
 .auth-box h2{
-    margin-bottom: 20px;
+    margin-top: 10px;
     color:whitesmoke;
 }
 
@@ -461,12 +425,13 @@ tbody tr{
 }
 
 .auth-box button{
-    width: 100%;
+    display: block;
+    width: 120px;
     padding: 10px;
     color: black;
     border: none;
     border-radius: 5px;
-    margin-top: 10px;
+    margin: 25px auto;
     cursor: pointer;
 }
 
@@ -482,6 +447,10 @@ tbody tr{
 .auth-box a{
     color: red;
     text-decoration: none;
+}
+
+.auth-box a:hover{
+    color: lightcoral;
 }
 
 form{

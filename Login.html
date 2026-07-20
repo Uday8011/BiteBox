@@ -13,20 +13,38 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav>
+
+            <img src="images/logo.png" alt="BiteBox Logo" width="180">
+
+            
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="BiteDeals.html">BiteDeals</a></li>
+                    <li><a href="Cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                    <li><a href="Login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+                </ul>
+            
+
+        </nav>
+    </header>
+
 <section class="auth-container">
 <div class="auth-box">
     <div class="icon-circle">
     <span class="material-symbols-outlined">person</span>
     </div>
-    <h2>Welcome Back!&nbsp;<img src="images/logo.png" alt="BiteBox Logo" width="180"></h2>
-    <p>Please login to your account</p><br>
+    <!-- <img src="images/logo.png" alt="BiteBox Logo" width="180"> -->
+    <h2>Welcome Back!</h2>
 
     <form>
         <label for="email">Email</label>
-        <input type="email" placeholder="Enter Email" required>
+        <input type="email" id="email" placeholder="Enter Email" required>
         
         <label for="password">Password</label>
-        <input type="password" placeholder="Enter Password" required>
+        <input type="password" id="password" placeholder="Enter Password" required>
 
         <div class="options">
 
@@ -41,7 +59,9 @@
 
         <button type="submit">Login</button>
     </form>
-    <p>Don't have an account&nbsp;<a href="signup.html">SignUp</a></p>
+    <br>
+    <hr>
+    <p>Don't have an account?&nbsp;<a href="signup.html">SignUp</a></p>
 </div>
 </section>
 </body>
